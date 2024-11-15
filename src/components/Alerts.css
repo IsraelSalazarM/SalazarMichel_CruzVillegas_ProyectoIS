@@ -1,0 +1,37 @@
+.alerts {
+    padding: 20px;
+  }
+  
+  .alert {
+    background-color: #f8d7da; 
+    border: 1px solid #f5c6cb; 
+    color: #721c24; 
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .alert-date {
+    font-weight: bold;
+  }
+  
+  .alert-description {
+    margin-left: 10px;
+  }
+  
+  .mark-read, .delete-alert {
+    background-color: #250707;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 3px;
+  }
+  
+  .mark-read:hover, .delete-alert:hover {
+    background-color: #e9ecef;
+  }
+  
